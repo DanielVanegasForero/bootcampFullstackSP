@@ -41,10 +41,10 @@ public class Challenge1 {
         boolean x = false;
         for (String i : b) {
             if (i == null ? a == null : i.equals(a)) {
-                x = true;
+                x = false;
                 break;
             } else {
-                x = false;
+                x = true;
             }
         }
         return x;
